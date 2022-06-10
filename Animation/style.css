@@ -37,7 +37,7 @@ body {
     top: 18%;
     left: 15%;
     width: 301px;
-    height: 390px;
+    height: 389px;
     overflow: hidden;
     background-image: url("img/seq-a.png");
 }
@@ -46,8 +46,8 @@ body {
     position: absolute;
     top: 29%;
     left: 68%;
-    width:201px;
-    height:332px;
+    width:203px;
+    height:302px;
     overflow: hidden;
     background-image: url("img/seq-b.png");
 }
