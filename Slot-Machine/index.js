@@ -33,12 +33,12 @@ function result(slot1, slot2, slot3, mise) {
     let combination = [slot1, slot2, slot3];
 
     for (let i = 0; i < combination.length; i++) {
-        if (combination[i] == 2) {
-            combination[i] = 1;
-        } else if (combination[i] == 4) {
-            combination[i] = 3;
-        } else if (combination[i] == 6) {
-            combination[i] = 5;
+        if (combination[i] == "cherry.png") {
+            combination[i] = "Cherry.png";
+        } else if (combination[i] == "diamond.png") {
+            combination[i] = "Diamond.png";
+        } else if (combination[i] == "lemon.png") {
+            combination[i] = "Lemon.png";
         }
     }
 
@@ -62,22 +62,22 @@ function result(slot1, slot2, slot3, mise) {
     }
 
     if (combination[0] == combination[1] && combination[1] == combination[2]) {
-        if (combination[0] == 0) {
+        if (combination[0] == "casino.png") {
             let casino_win = mise * 10;
             jetons += casino_win;
             win = document.getElementById('win').innerHTML = '+' + casino_win + '$';
             money = document.getElementById('money').innerHTML = jetons + '$';
-        } else if (combination[0] == 1) {
+        } else if (combination[0] == "Cherry.png") {
             let cherry_win = mise * 1.5;
             jetons += cherry_win;
             win = document.getElementById('win').innerHTML = '+' + cherry_win + '$';
             money = document.getElementById('money').innerHTML = jetons + '$';
-        } else if (combination[0] == 3) {
+        } else if (combination[0] == "Diamond.png") {
             let diamond_win = mise * 2.5;
             jetons += diamond_win;
             win = document.getElementById('win').innerHTML = '+' + diamond_win + '$';
             money = document.getElementById('money').innerHTML = jetons + '$';
-        } else if (combination[0] == 5) {
+        } else if (combination[0] == "Lemon.png") {
             let lemon_win = mise * 1.25;
             jetons += lemon_win;
             win = document.getElementById('win').innerHTML = '+' + lemon_win + '$';
