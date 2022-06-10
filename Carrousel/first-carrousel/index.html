@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrousel</title>
+    <link href="carou.css" rel="stylesheet">
+</head>
+<body>
+
+<img class= "wanted" src="img/paper.png" alt="wanted">
+<br>
+<br>
+<br>
+<div class="slide-container">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <div class="Slide">
+        <img src="img/Barbeblanche.png" style="width: 130%">
+        <div class="text">
+            <br>Newgate<br>5.206.000.000</div>&nbsp;
+    </div>
+
+    <div class="Slide">
+        <img src="img/Corazon.png" style="width: 150%">
+        <div class="text"><br>Corazon <br>200.900.000</div>&nbsp;
+    </div>
+
+    <div class="Slide">
+        <img src="img/Oden.png" style="width: 130%">
+        <div class="text"><br>Oden <br>2.880.550.000</div>&nbsp;
+    </div>
+
+    <div class="Slide">
+        <img src="img/Katakuri.png"style="width: 130%">
+        <div class="text"><br>Katakuri<br>1.057.000.000</div>&nbsp;
+    </div>
+
+    <div class="Slide">
+        <img src="img/Luffy.png" style="width: 130%">
+        <div class="text"><br>Luffy<br>1.500.000.000</div>&nbsp;
+    </div>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<div id="dot_container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

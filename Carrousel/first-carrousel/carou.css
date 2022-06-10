@@ -1,0 +1,120 @@
+* {
+    box-sizing:border-box;
+    z-index: 10;
+}
+
+body {
+    background: url("img/paper.jpg") no-repeat center center fixed;
+}
+h1  {
+    font-size: 3em;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.slide-container {
+
+    max-width: 20%;
+    position: absolute;
+    left: 33%;
+    display: flex;
+    margin: auto;
+    top: 23%;
+    width: 100%;
+    height: 100%;
+}
+.One {
+    width: 20%;
+    height: 20%;
+    background: rgb(255, 255, 255);
+}
+.Slide {
+    display: none;
+}
+
+
+.wanted {
+    z-index: 9;
+    position: absolute;
+    left: 32%;
+    height: 100vh;
+}
+.prev, .next {
+    cursor: pointer;
+    margin-top: 150px;
+    height: 10%;
+    padding: 16px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+.next {
+    position: absolute;
+    left: 160%;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text {
+    color: #503b20;
+    font-family: Comic Sans MS;
+    font-size: 45px;
+    padding: 5px 12px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    z-index: 11;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #d3cfcf;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+#dot_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 650px;
+}
