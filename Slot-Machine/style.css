@@ -1,0 +1,115 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    background: #1E96FC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+#wallet {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFC600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px;
+    max-width: 1250px;
+    padding: 0;
+}
+
+#boutons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#boutons button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FFC600;
+    color: #D84727;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1em;
+}
+
+#slots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#slots img {
+    width: 100px;
+    height: 100px;
+    border:  solid 0.2em;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: #FFC600;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1em;
+}
+
+#combo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFC600;
+    border-radius: 5px;
+    border:  solid 0.2em;
+    padding: 1em;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 300px;
+}
+
+#combo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #D84727;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#winners {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFC600;
+    border-radius: 5px;
+    border:  solid 0.2em;
+    padding: 1em;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 300px;
+}
+
+#winners p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #D84727;
+    display: flex;
+    justify-content: flex-start;
+}

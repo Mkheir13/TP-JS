@@ -1,0 +1,163 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    background: #efefef;
+}
+
+h1 {
+    color: #e23b13;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-top: 0;
+    margin: 0 auto;
+}
+
+h1:hover {
+    color: #293847;
+}
+
+#btn {
+    background: transparent;
+    border: #293847 1px solid;
+    color: #293847;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#btn:hover {
+    background: #e23b13;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+
+
+#btn2 {
+    background: transparent;
+    border: #293847 1px solid;
+    color: #293847;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#btn2:hover {
+    background: #e23b13;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+
+#button_container {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#button_container button {
+    margin: 5px;
+}
+
+#item_container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#item {
+    margin: 10px;
+    width: 30%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #293847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#cart_button {
+    background: transparent;
+    border: #293847 1px solid;
+    color: #293847;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 10px;
+}
+
+p {
+    margin: 0.5em;
+}
+
+#item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-img img {
+    width: 90%;
+    height: auto;
+}
+
+#cart_button:hover {
+    background: #e23b13;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+
+#cart_container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cart_container img {
+    width: 50%;
+    height: auto;
+}
+
+#cart_item_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart_container #cart_item {
+    margin: 10px;
+    width: 30%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #293847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#reduc {
+    color: #e23b13;
+}

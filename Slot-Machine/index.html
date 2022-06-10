@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Casino</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+<div id="board">
+    <div id="combo">
+        <span>🍋🍋🍋 : x1.25</span>
+        <span>🍒🍒🍒 : x1.5</span>
+        <span>💎 : x0.5</span>
+        <span>💎💎 : x1</span>
+        <span>💎💎💎 : x2.5</span>
+        <span>7️7️7️: x10</span>
+    </div>
+</div>
+<div id="container">
+    <div id ="wallet">
+        <p>Your Money :</p>
+        <p id="money"></p>
+        <p>Last win :</p>
+        <p id="win"></p>
+    </div>
+    <div id="slots">
+        <img id="slot1" src="casino.png">
+        <img id="slot2" src="casino.png">
+        <img id="slot3" src="casino.png">
+    </div>
+    <div id ="boutons">
+        <button id="btn_ten" onclick="play(10)">Bet 10 coins</button>
+        <button id="btn_fifty" onclick="play(50)">Bet 50 coins</button>
+        <button id="btn_two_hundred" onclick="play(200)">Bet 200 coins</button>
+    </div>
+    <div id="result">
+        <p id="result_text"></p>
+    </div>
+</div>
+    <div id="win_combo">
+        <div id="winners">
+            <p>last bet :</p>
+            <p id="last_bet"></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -20,7 +20,7 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     margin: 0;
-    color: orange;
+    color: #ffd60a;
 }
 
 #carrousel {
@@ -47,7 +47,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 650px;
     height: 200px;
 }
 
@@ -140,34 +140,34 @@ p {
     object-fit: contain;
     border-radius: 50%;
     border-style: solid;
-    border-width: 5px;
-    animation: loop 2s 1s infinite;
+    border-width: 3px;
+    animation: loop  1s infinite;
 }
 
 @keyframes loop {
     0% {
-        border-bottom-color: orange;
-        border-top-color: orange;
+        border-bottom-color: #ffd60a;
+        border-top-color: #ffd60a;
         border-left-color: black;
         border-right-color: black;
-    }
-    50% {
-        border-bottom-color: #000000;
-        border-top-color: #000000;
-        border-left-color: orange;
-        border-right-color: orange;
-    }
-    51% {
-        border-bottom-color: orange;
-        border-top-color: orange;
-        border-left-color: black;
-        border-right-color: black;
+        rotateX: 0deg;
     }
     100% {
         border-bottom-color:black;
         border-top-color: black;
-        border-left-color: orange;
-        border-right-color: orange;
+        border-left-color: #ffd60a;
+        border-right-color: #ffd60a;
+        rotateX: 360deg;
     }
 }
 
+#plus {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2ce62;
+    padding: 10px;
+    border-radius: 15% 0 15% 0;
+
+}
