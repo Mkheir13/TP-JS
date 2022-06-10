@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>météo</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <p class="Titre" >MÉTÉO</p>
+    </div>
+    <div class="content">
+        <div class="city">
+            <form method="post" name="myform">
+                <input id="city" placeholder="Ville" type="search">
+                <button id="search">Rechercher</button>
+            </form>
+        </div>
+        <p id="cityname"></p>
+        <div id="icon"></div>
+        <div class="temp">
+            <p id="temp"></p>
+            <div class="weather">
+                <p id="weather"></p>
+            </div>
+            <div class="contain-temp">
+            <p id="tempmin"></p>
+            <p id="tempmax"></p>
+        </div>
+            <div class="contain-weather">
+                <p id="weathercondition"></p>
+                <p id="weatherconditionprop"></p>
+            </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

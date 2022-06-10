@@ -1,0 +1,44 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    background: url("bg.jpg") no-repeat center center fixed;
+}
+.Titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.contain-temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-temp > p {
+    margin: 10px;
+}
+
+#cityname {
+    font-size: 30px;
+}
+
+#temp {
+    font-size: 50px;
+}
